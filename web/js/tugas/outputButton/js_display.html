@@ -1,0 +1,31 @@
+<html>
+<head>
+<title>DISPLAY</title>
+<script type="text/javascript">
+	function muncul() {
+		document.getElementById('myImage').style.display='block';
+	}
+	function hilang() {
+		document.getElementById('myImage').style.display='none';
+	}
+</script>
+</head>
+<body>
+	<table align="center" border="0px">
+		<tr><td>
+			<p align="center" style="font-family:calibri; font-weight:bold; font-size:30px">DISPLAY GAMBAR</p><br>
+		</td></tr>
+		
+		<tr>
+			<td align="center" height="120px">
+				<img id="myImage" src="img/nyala.png" width="100px">
+			</td>
+		</tr>
+		<tr align="center"><td>
+			<br><br>
+			<button onclick="muncul()">MUNCULKAN</button> 
+			<button onclick="hilang()">HILANGKAN</button> 
+		</td></tr>
+	</table>
+</body>
+</html>

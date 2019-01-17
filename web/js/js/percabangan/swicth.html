@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+    <title>Percabangan switch/case</title>
+</head>
+<body>
+    <script>
+
+        var jawab = prompt("Silahkan pilih pelajaran yang Anda inginkan dengan memasukan angka 1 sampai 5");
+        var pelajaran = "";
+        
+        switch(jawab){
+            case "1":
+                pelajaran = "PHP";
+                break;
+            case "2":
+                pelajaran = "CSS";
+                break;
+            case "3":
+                pelajaran = "HTML";
+                break;
+            case "4":
+                pelajaran = "JavaScript";
+                break;
+            case "5":
+                pelajaran = "Corel";
+                break;
+            default:
+                document.write("<p>Opps! anda salah pilih</p>");
+        }
+
+        if(pelajaran === ""){
+            document.write("<p>Kamu gagal memilih pelajaran</p>");
+        } else {
+            document.write("<h2>Selamat kamu telah memilih " + pelajaran + "</h2>");
+        }
+    </script>
+</body>
+</html>

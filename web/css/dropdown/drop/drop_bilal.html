@@ -1,0 +1,53 @@
+<html>
+<head>
+	<title></title>
+		<style type="text/css">
+			.button {
+				display: inline-block;
+				font-weight: bold;
+				background-color: red;
+				color: white;
+				border: none;
+				cursor: pointer;
+				padding: 20px;
+				margin-top: 20px;
+			}
+			.drop {
+				position: relative;
+				display: inline-block;
+			}
+			.drop-dalam {
+				display: none;
+				background: black;
+				min-width: 100px;
+			}
+			.drop-dalam a {
+				color: white;
+				padding: 29px;
+				text-decoration: none;
+				display: block;
+			}
+			.drop:hover .drop-dalam {
+				display: block;
+			}
+			.drop .drop-dalam a:hover{
+				background: red;
+			}
+		</style>
+</head>
+<body>
+<div class="nav">
+	<div class="drop">
+		<button class="button">MENU</button>
+		<button class="button">ABOUT</button>
+		<button class="button">BLOG</button>
+			<div class="drop-dalam">
+				<a href="#">Menu 1</a>
+				<a href="#">Menu 2</a>
+				<a href="#">Menu 3</a>
+				<a href="#">Menu 4</a>
+			</div>
+	</div>
+</div>
+</body>
+</html>

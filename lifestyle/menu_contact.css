@@ -1,0 +1,49 @@
+#menu {
+	margin: 10px 0px 0px 0px;
+	float: right;
+	width: 100%;
+}
+#menu ul {
+	float: right;
+	margin: 30px 0px 30px 0px;
+	display: inline-block;
+}
+#menu li {
+	display: inline-block;
+}
+#menu a {
+	font-size: 18px;
+	text-decoration: none;
+	color: #333;
+	font-family: sans-serif;
+	margin-left: 50px;
+	transition-duration: 0.2s;
+}
+#menu a:hover {
+	color: #238ebc;
+	text-decoration: underline;
+}
+#menu .active {
+	color: #238ebc;
+	text-decoration: none;
+}
+#menu .active:hover {
+	text-decoration: none;
+}
+
+/* Style the buttons */
+.btn {
+	color: #fff;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	cursor: pointer;
+	font-size: 18px;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active, .btn:hover {
+	color: #238ebc;
+	background-color: transparent;
+
+}

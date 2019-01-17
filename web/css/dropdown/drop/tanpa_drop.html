@@ -1,0 +1,133 @@
+<html>
+<head>
+<title></title>
+<style>
+
+	/* http://meyerweb.com/eric/tools/css/reset/ 
+	   v2.0 | 20110126
+	   License: none (public domain)
+	*/
+
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed, 
+	figure, figcaption, footer, header, hgroup, 
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline;
+	}
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+	body {
+		line-height: 1;
+	}
+	ol, ul {
+		list-style: none;
+	}
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after, q:before, q:after {
+		content: '';
+		content: none;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+
+	div {
+	
+	}
+
+	/*CSS Dropdown*/
+	.menu {
+		width: 637px;
+		margin-top: 20px;
+		margin: 20px 20px;
+	}
+	.menu {
+		display: inline-table;
+		border-radius: 5px;
+		padding: 1px;
+		background-image: linear-gradient(#1a80af, #06608c);
+	}
+	.menu li {
+		display: inline-table;
+		float: left;
+
+	}
+	.menu li a {
+		padding: 20px;
+		font-family: sans-serif;
+		font-weight: bold;
+		display: block;
+		color: #fff;
+		text-decoration: none;
+		text-transform: uppercase;
+		float: left;
+	}
+	.menu li a:hover {
+		background-image: linear-gradient( #06608c, #1a80af);
+	}
+	.menu ul {
+		float: left;
+		width: 106px;
+		position:absolute;
+		left: 110px;
+		top: 80px;
+		list-style-type:none;		
+	}
+	.menu li:hover {
+		position:relative;
+		background-image: linear-gradient( #06608c, #1a80af);
+		border-radius: 5px;	
+	}
+	.menu li:hover ul {
+		position:absolute;
+		display:block;
+		left:0px;
+		top:55px;
+		background-image: linear-gradient( #06608c, #1a80af);
+		padding:0px;
+	}
+	.menu li:hover ul li a {
+
+		padding:20px;
+		width:106px;
+		background: #06608c;
+	}
+	.menu li:hover ul li a:hover {
+		background: #1a80af;
+	}
+
+</style>
+</head>
+<body>
+	<table align="center">
+		<ul class="menu">
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Portofolio</a></li>
+		<li><a href="#">Contact</a></li>
+		<li><a href="#">Blog</a></li>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Social</a></li>
+		</ul>
+	</table>
+</body>
+</html>

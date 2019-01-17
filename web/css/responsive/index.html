@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Responsive</title>
+	<style type="text/css">
+		* {
+			box-sizing: border-box;
+		}
+		body {
+			margin:0;
+		}
+		.header {
+			color: #fff;
+			padding: 20px;
+			background-color: #147dce;
+			width: 100%;
+			float: left;
+		}
+		.header h1 {
+			float: left;
+			width: 80%;
+			margin:2px;
+		}
+		.header p {
+			float: left;
+			width: 80%;
+			margin:2px;
+		}
+		.tulisan {
+			float: left;
+			width: 80%;
+		}
+		.toggle_icon img {
+			cursor: pointer;
+			margin: 0px;
+			float: right;
+			padding: 1vw 0vw 0vw 0vw;
+			display: none;
+		}
+		.menu {
+			background-color: #7dc96a;
+		}
+		.menu li {
+			cursor: pointer;
+			margin: 0;
+			width: 10%;
+			padding: 10px;
+			display: inline-block;
+		}
+		.menu li:hover {
+			background-color: #5bb245;
+		}
+		.left {
+			background-color: #2196F3;
+			padding: 20px;
+			float: left;
+			width: 20%;
+		}
+		.main {
+			background-color: #f1f1f1;
+			padding: 20px;
+			float: left;
+			width: 60%;
+		}
+		.right {
+			background-color: #4CAF50;
+			padding: 20px;
+			float: left;
+			width: 20%;
+		}
+
+		@media screen and (max-width: 740px){
+			.menu {
+				display: none;
+			}
+			.left, .main, .right {
+				width: 100%;
+			}
+			.header img {
+				display: block;
+			}
+		}
+	</style>
+</head>
+<body>
+
+	<div class="header">
+		<div class="tulisan">
+			<h1>COMPANY LOGO</h1>
+			<p>your company tagline here</p>
+		</div>
+		<div class="toggle_icon">
+			<img src="img/toggle.png" width="30px">
+		</div>
+	</div>
+
+	<div class="menu">
+			<li>Menu 1</li>
+			<li>Menu 2</li>
+			<li>Menu 3</li>
+			<li>Menu 4</li>
+	</div>
+
+	<div class="left">
+		<p>Left Menu</p>
+	</div>
+
+	<div class="main">
+		<p>Main Content</p>
+	</div>
+
+	<div class="right">
+		<p>Right Content</p>
+	</div>
+</body>
+</html>

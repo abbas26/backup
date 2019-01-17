@@ -1,0 +1,407 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0 auto;
+}
+.container {
+	margin: auto;
+}
+.wrapper {
+	margin: 0 auto;
+    width: 1299px;
+}
+
+
+#content_header {
+	float: left;
+	width: 100%;
+	min-height: 170px;
+	background-color: #fff;
+	padding: 0px 30px 0px 30px;
+}
+#logo {
+	width: 22%;
+	height: 170px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	font-size: 4vw;
+}
+#logo p {
+	margin: 0px;
+	padding: 50px 0px 60px 0px;
+	height: 170px;
+	color: #fff;
+}
+#right_header {
+	float: right;
+	width: 70%;
+	height: 170px;
+	box-sizing: border-box;
+}
+#box_engine {
+	float: right;
+	margin: 30px 0px 0px 0px;
+	background-color: rgba(000, 0, 0, 0.6);
+	width: 300px;
+	border-radius: 50px;
+}
+#box_engine input {
+	padding: 0px 0px 0px 20px;
+	background-color: transparent;
+	border: none;
+	width: 250px;
+	height: 35px;
+	color: #fff;
+	float: left;
+}
+#box_engine input::-webkit-input-placeholder {
+	color: #b2b2b2;
+	font-size: 12px;
+	font-family: sans-serif;
+}
+#box_engine button {
+	cursor: pointer;
+	float: right;
+	color: transparent;
+	background-color: transparent;
+	border: none;
+	margin: 5px 5px 2px 5px;
+	padding: 3px 2px 2px 2px;
+}
+
+
+#menu {
+	margin: 10px 0px 0px 0px;
+	float: right;
+	width: 100%;
+}
+#menu ul {
+	float: right;
+	margin: 30px 0px 30px 0px;
+	display: inline-block;
+}
+#menu li {
+	display: inline-block;
+}
+#menu a {
+	font-size: 1.5vw;
+	text-decoration: none;
+	color: #000;
+	font-family: sans-serif;
+	margin-left: 35px;
+	transition-duration: 0.2s;
+}
+#menu a:hover {
+	color: #238ebc;
+	text-decoration: underline;
+}
+#menu .active {
+	color: #238ebc;
+	text-decoration: none;
+}
+#menu .active:hover {
+	text-decoration: none;
+}
+
+
+/* Style the buttons */
+.btn {
+	color: #fff;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/* Style the active class, and buttons on mouse-over */
+.active, .btn:hover {
+    background-color: transparent;
+    color: #238ebc;
+}
+
+
+
+#title_page {
+	padding: 0px 30px 0px 30px;
+	background-color: #f5f5f6;	
+	float: left;
+	width: 100%;
+	height: 140px;
+	margin: 0 auto;
+}
+#title_page p {
+	margin-top: 55px;
+	font-family: sans-serif;
+	font-size: 25px;
+	color: #353535;
+}
+
+
+
+#box_form {
+	padding: 0px 30px 0px 30px;
+	font-family: sans-serif;
+	float: left;
+	width: 100%;
+}
+
+#form_contact {
+	background-image: url(assets/segitiga.png);
+	background-repeat: no-repeat;
+	width: 50%;
+	float: left;
+	margin-bottom: 50px;
+}
+#diskripsi_contact {
+	margin: 40px 0px 40px 0px;
+	font-size: 16px;
+	line-height: 15px;
+	color: #2d2b2b;
+	float: left;
+	width: 100%;
+}
+#input_contact {
+	width: 100%;
+}
+.box_input {
+	float: right;
+	width: 95%;
+	margin-bottom: 22px;
+}
+.att_input {
+	font-size: 15px;
+	font-weight: bold;
+	color: #333;
+	padding: 9px 40px 0px 0px;
+	text-align: right;
+	width: 30%;
+	height: 35px;
+	float: left;
+}
+.att_input span {
+	color: red;
+}
+.text_input {
+	width: 70%;
+	float: left;
+}
+.text_input textarea {
+	border: 1px solid #c4c2c2;
+	border-radius: 5px;
+	max-width: 500px;
+	min-width: 300px;
+}
+.text_input input {
+	padding-left: 10px;
+	float: right;
+	width: 100%;
+	border-radius: 5px;
+	height: 40px;
+	border: 1px solid #c4c2c2;
+}
+.text_input input::-webkit-input-placeholder {
+	color: #727272;
+	font-weight: normal;
+	font-family: sans-serif;
+}
+.text_input textarea {
+	width: 100%;
+	height: 130px;
+	border-radius: 5px;
+}
+.input_submit {
+	width: 70%;
+	float: right;
+}
+.input_submit button {
+	cursor: pointer;
+	font-weight: bold;
+	width: 80px;
+	float: left;
+	border-radius: 5px;
+	background-color: #333;
+	border: none;
+	color: #fff;
+	padding:10px;
+	transition-duration: 0.2s;
+}
+.input_submit button:hover {
+	background-color: #636363;
+}
+
+
+#address {
+	margin-top: 55px;
+	padding-left: 10px;
+	float: right;
+	width: 33%;
+}
+#address_company {
+	margin-bottom: 15px;
+	font-size: 15px;
+	float: left;
+	width: 100%;
+}
+#address_company p {
+	line-height: 8px;
+}
+#contact_company {
+	font-size: 16px;
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+}
+#contact_company p {
+	line-height: 8px;
+}
+#maps {
+	border: 1px solid #d3d3d3;
+	border-radius: 5px;
+	padding: 5px;
+	float: left;
+	width: 100%;
+	height: 345px;
+	margin-bottom: 80px;
+}
+#maps iframe {
+	border-radius: 5px;
+
+}
+
+.judul_contact{
+	color: #333;
+	font-family: sans-serif;
+	font-size: 25px;
+}
+#about {
+	padding: 0px 30px 30px 30px;
+	font-family: sans-serif;
+	float: left;
+	background-color: #eeeeee;
+	width: 100%;
+	min-height: 100px;
+}
+
+
+.contact {
+	color: #999999;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	float: left;
+	width: 25%;
+}
+.profil {
+	line-height: 10px;
+	margin-bottom: 30px;
+}
+.kontak {
+	line-height: 10px;
+}
+
+
+.quick {
+	padding-top: 30px;
+	padding-right: 30px;
+	float: left;
+	width: 25%;
+}
+.isi_quick {
+	line-height: 25px;
+}
+.isi_quick a {
+	font-weight: bold;
+	color: #333;
+	font-size: 17px;
+	text-decoration: none;
+	transition-duration: 0.2s;
+}
+.isi_quick a:hover {
+	color: #f41f37;
+}
+.isi_quick hr {
+	border: 1px solid #d3d3d3;
+}
+
+
+.from {
+	padding-top: 30px;
+	padding-right: 30px;
+	float: left;
+	width: 25%;
+}
+.blog_diskripsi {
+	color: #999999;
+}
+.blog_diskripsi b {
+	font-size: 18px;
+	color: #3a3a3a;
+}
+.blog_diskripsi p {
+	margin-top: 5px;
+	line-height: 25px;
+}
+.blog_diskripsi a {
+	float: right;
+	font-weight: bold;
+	color: #333;
+	text-decoration: none;
+	transition-duration: 0.2s;
+}
+.blog_diskripsi a:hover {
+	color: #f41f37;
+}
+
+.grab {
+	padding-top: 30px;
+	float: left;
+	width: 25%;
+}
+input::-webkit-input-placeholder {
+	color: #333;
+	font-weight: bold;
+}
+.input input {
+	padding-left: 10px;
+	width: 100%;
+	height: 40px;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+.grab button {
+	cursor: pointer;
+	background-color: #333;
+	font-weight: bold;
+	color: #fff;
+	border: none;
+	width: 100px;
+	padding: 15px;
+	border-radius: 5px;
+	transition-duration: 0.2s;
+}
+.grab button:hover {
+	background-color: #545454;
+}
+
+
+
+.footer{
+	padding: 18px 30px 0px 30px;
+	float: left;
+	background-color: #1f232c;
+	width: 100%;
+	height: 80px;
+}
+.footer p {
+	color: #eeeeee;
+	font-size: 15px;
+}
+.copyright {
+	float: left;
+}
+.org {
+	float: right;
+}
